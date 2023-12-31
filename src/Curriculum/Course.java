@@ -55,7 +55,7 @@ public class Course {
     }
 
     public void courseDetails() {
-        System.out.println("Course code: " + name);
+        System.out.println("Course: " + name);
         System.out.println("Subjects: ");
         for (Subject S : subjects) {
             System.out.println(S.getSubjectName());

@@ -1,15 +1,15 @@
 package People;
 
 public class Classroom {
-    private String roomNumber;
+    private int roomNumber;
     private int size;
-    public Classroom(String roomNumber) {
+    public Classroom(int roomNumber) {
         this.roomNumber = roomNumber;
     }
     public int getSize() {
         return size;
     }
-    public String getRoom() {
+    public int getRoom() {
         return roomNumber;
     }
 }

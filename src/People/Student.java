@@ -29,7 +29,7 @@ public class Student extends Person {
         return studentId;
     }
     public void courseDisplay() {
-        System.out.println("Student "+name+" enrolled in courses: ");
+        System.out.println("Student "+name+" enrolled in: ");
         for (Course C : courses) {
             System.out.println(C.getName());
         }

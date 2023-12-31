@@ -22,10 +22,10 @@ public class Main {
         historyTeacher.assignSubject(history);
 
         // Initiate some courses
-        Course ElectroCourse = new Course("ELC");
+        Course ElectroCourse = new Course("ELCTROMAGNETISM");
         ElectroCourse.addSubject(Electro);
         ElectroCourse.setTeacher(ElectroTeacher);
-        Course historyCourse = new Course("HIS");
+        Course historyCourse = new Course("HISTORY&GEOGRAPHY");
         historyCourse.addSubject(history);
         historyCourse.setTeacher(historyTeacher);
         // Enroll students in courses
@@ -48,6 +48,13 @@ public class Main {
         historyGroup.displayStudents();
         System.out.println("-------------------------------");
         
+        // Initiate some classrooms
+        Classroom ElectroClassroom = new Classroom(212);
+        ElectroCourse.setClassroom(ElectroClassroom);
+        ElectroCourse.setGroup(ElectroGroup);
+        ElectroCourse.courseDetails();
+        System.out.println("-------------------------------");
+
         // Initiate a club
         Club ElectroClub = new Club("Electro Lovers Club");
         ElectroClub.addMember(student0);

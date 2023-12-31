@@ -22,15 +22,15 @@ public class Event {
     }
 
     public void addParticipant(Person person) {
-        System.out.println(person.getName()+" wants to participate in event: "+eventName);
+        System.out.println(person.getName()+" added successfully to "+eventName);
         participants.add(person);
         feesManager(person);
     }
     public void feesManager(Person P) {
         if (organizer.isMember(P)) {
-            System.out.println("Since you're a member you only have to pay "+participationFee*0.8+" Dinars");
+            System.out.println("Member Participation fee is "+participationFee*0.8+" TND");
         } else {
-            System.out.println("Participation fees are "+ participationFee);
+            System.out.println("Participation fee is "+ participationFee+ " TND");
         }
     }
     public void setParticipationFee(double participationFee) {
@@ -40,7 +40,7 @@ public class Event {
         return eventDate;
     }
     public void displayParticipants() {
-        System.out.println("Event "+eventName+"by club "+organizer.getName()+" Participants are: ");
+        System.out.println("Event "+eventName+"by club "+organizer.getName()+"\nFeaturing: ");
         for (Person P : participants) {
             System.out.println(P.getName());
         }

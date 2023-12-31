@@ -22,7 +22,7 @@ public class Group {
         students.add(student);
     }
     public void displayStudents() {
-        System.out.println("Group "+groupName+" students are: ");
+        System.out.println("Group "+groupName+" consists of: ");
         for (Person P : students) {
             System.out.println(P.name);
         }
