@@ -45,13 +45,13 @@ Echoes tales of jubilation within the university realm, bearing names, dates, re
 ## Installation
 
 1. Requirements:
-    -A Cauldron of Code (Your Trusty Computer)
-    -Java Elixir (Java Development Kit - JDK)
-    -Mystical Scroll Reader (Preferred Integrated Development Environment - IDE)
-    -Patience and Sense of Wonder
+    - A Cauldron of Code (Your Trusty Computer)
+    - Java Elixir (Java Development Kit - JDK)
+    - Mystical Scroll Reader (Preferred Integrated Development Environment - IDE)
+    - Patience and Sense of Wonder
 
 2. Instructions:
-    -Summon the Repository `git clone https://github.com/Ala-ADN/UniversityManagement`
-    -Navigate to the Realm of runes `cd UniversityManagement`
-    -Invoke the Spell of Compiling `javac Main.java`
-    -Channel the incantation `java Main`
+    - Summon the Repository `git clone https://github.com/Ala-ADN/UniversityManagement`
+    - Navigate to the Realm of runes `cd UniversityManagement`
+    - Invoke the Spell of Compiling `javac Main.java`
+    - Channel the incantation `java Main`
